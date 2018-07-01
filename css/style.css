@@ -3,17 +3,32 @@ body {
   font-size: 16px;
   font-family: 'Montserrat', sans-serif;
 }
+.container {
+  padding: 0;
+}
 .header {
-  margin-top: 39px;
+  margin: 39px 0 37px 0;
+}
+.logo {
+  padding-right: 0;
+}
+.header__logo {
+  padding-top: 15px;
 }
 .header__description {
-  font-size: 0.875rem;
+  font-size: 0.75rem;
   font-weight: 400;
   color: #29282e;
+  padding: 43px 0 4px 41px;
 }
 .header__contacts {
   font-size: 0.875rem;
   font-weight: 400;
+  vertical-align: middle;
+}
+.header span {
+  display: flex;
+  align-items: center;
 }
 .header__contacts__adress:before {
   content: '';
@@ -21,6 +36,7 @@ body {
   width: 20px;
   height: 26px;
   background-image: url(../img/map-marker.png);
+  margin-right: 12px;
 }
 .header__contacts__phone:before {
   content: '';
@@ -28,4 +44,34 @@ body {
   width: 20px;
   height: 26px;
   background-image: url(../img/mobile.png);
+  margin-right: 12px;
+}
+.header__menu__list {
+  padding: 39px 0 21px 0;
+  margin-bottom: 0;
+}
+.header__menu__item {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  list-style: none;
+}
+.header__menu__item a {
+  color: #44a001;
+}
+.btn-request {
+  border: 3px solid #8bcf59;
+  border-radius: 25px;
+  color: #29282e;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  padding: 23px 15px 18px 15px;
+  margin-top: 39px;
+  cursor: pointer;
+}
+.btn-request:focus {
+    outline: none;
 }
