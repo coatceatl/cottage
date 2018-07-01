@@ -80,6 +80,9 @@ body {
 
 /* slider */
 
+.slider {
+  margin-bottom: 29px;
+}
 .carousel__promotion {
   position: absolute;
   top: 288px;
@@ -142,4 +145,29 @@ body {
 }
 .carousel-indicators .active {
   background-color: #fff;
+}
+
+/* services */
+
+.services-block {
+  margin-bottom: 27px;
+}
+.services-block h5 {
+  margin-top: 40px;
+  margin-bottom: 22px;
+  color: #29282e;
+  font-weight: 700;
+}
+.services__content {
+  width: 270px;
+  height: 270px;
+}
+.services__content__progress {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 15px;
+  width: 270px;
+  height: 160px;
+  background-image: linear-gradient(to top, #29282e 0%, rgba(41, 40, 46, 0) 100%);
 }
