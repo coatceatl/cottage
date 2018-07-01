@@ -1,0 +1,31 @@
+body {
+  background-color: #fff;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+}
+.header {
+  margin-top: 39px;
+}
+.header__description {
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #29282e;
+}
+.header__contacts {
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+.header__contacts__adress:before {
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 26px;
+  background-image: url(../img/map-marker.png);
+}
+.header__contacts__phone:before {
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 26px;
+  background-image: url(../img/mobile.png);
+}
