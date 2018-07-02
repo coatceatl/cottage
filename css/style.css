@@ -4,8 +4,14 @@ body {
   font-family: 'Montserrat', sans-serif;
   color: #29282e;
 }
-.container {
-  padding: 0;
+
+.container-my {
+  max-width: 1200px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 /* header*/
 
@@ -21,7 +27,12 @@ body {
 .header__description {
   font-size: 0.75rem;
   font-weight: 400;
-  padding: 43px 0 4px 41px;
+  padding-top: 43px;
+  width: 152px;
+}
+.menu {
+  width: 485px;
+  margin-left: 40px;
 }
 .header__contacts {
   font-size: 0.875rem;
@@ -37,7 +48,7 @@ body {
   display: inline-block;
   width: 20px;
   height: 26px;
-  background-image: url(../img/map-marker.png);
+  background: url(../img/map-marker.png) no-repeat;
   margin-right: 12px;
 }
 .header__contacts__phone:before {
@@ -45,11 +56,11 @@ body {
   display: inline-block;
   width: 20px;
   height: 26px;
-  background-image: url(../img/mobile.png);
+  background: url(../img/mobile.png) no-repeat;
   margin-right: 12px;
 }
 .header__menu__list {
-  padding: 39px 0 21px 0;
+  padding: 36px 0 21px 0;
   margin-bottom: 0;
 }
 .header__menu__item {
@@ -62,6 +73,11 @@ body {
 .header__menu__item a {
   color: #44a001;
 }
+.btn {
+  position: absolute;
+  right: 0;
+  padding-right: 0;
+}
 .btn-request {
   border: 3px solid #8bcf59;
   border-radius: 25px;
@@ -69,7 +85,7 @@ body {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1.2px;
-  padding: 23px 15px 18px 15px;
+  padding: 23px 33px 18px 32px;
   margin-top: 39px;
   cursor: pointer;
 }
