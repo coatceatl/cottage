@@ -287,7 +287,77 @@ body {
 
 /* map */
 
+.map__title h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-left: 52px;
+  margin-bottom: 32px;
+}
 .my_map {
   height: 600px;
   width: 100%;
 }
+
+/* teviews */
+
+.reviews__title h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-left: 52px;
+  margin-bottom: 70px;
+  margin-top: 100px;
+}
+.reviews__photo {
+  padding-top: 143px;
+}
+.reviews__block {
+  width: 663px;
+  height: 450px;
+  box-shadow: 0 5px 30px rgba(7, 17, 35, 0.05);
+  background-color: #fff;
+}
+.reviews__avatar {
+  padding-top: 50px;
+  padding-right: 29px;
+  padding-left: 50px;
+}
+.reviews__header {
+  padding-top: 77px;
+}
+.reviews__header h6 {
+  font-size: 1rem;
+  font-weight: 700;
+}
+.reviews__header p {
+  font-size: 0.75rem;
+  font-weight: 400;
+  font-color: #a6a6a6;
+}
+.reviews__block__cont {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 28px;
+  padding-top: 38px;
+  padding-right: 113px;
+  padding-bottom: 42px;
+}
+.reviews__block__details {
+  margin-right: 71px;
+}
+.details__description h6 {
+   font-size: 0.875rem;
+   font-weight: 700;
+   letter-spacing: 1.2px;
+   text-transform: uppercase;
+}
+.details__description p {
+   font-size: 0.75rem;
+   font-weight: 400;
+}
+.reviews__block__details a {
+  color: #8bcf59;
+  font-size: 0.75rem;
+  font-weight: 400;
+  padding-top: 19px;
+}
+
