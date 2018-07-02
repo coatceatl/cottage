@@ -171,3 +171,9 @@ body {
   height: 160px;
   background-image: linear-gradient(to top, #29282e 0%, rgba(41, 40, 46, 0) 100%);
 }
+
+/* points */
+
+.points {
+  margin-top: 87px;
+}
