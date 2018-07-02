@@ -284,3 +284,10 @@ body {
   margin-left: 45px;
   margin-bottom: 142px;
 }
+
+/* map */
+
+.my_map {
+  height: 600px;
+  width: 100%;
+}
