@@ -271,6 +271,9 @@ body {
 
 /* safity */
 
+.safity {
+  background: url(../img/bg-safity.png) right bottom no-repeat;
+}
 .safity__title h2 {
   font-size: 2.5rem;
   font-weight: 700;
@@ -279,4 +282,5 @@ body {
 }
 .safity__license {
   margin-left: 45px;
+  margin-bottom: 142px;
 }
