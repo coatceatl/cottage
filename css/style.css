@@ -186,7 +186,29 @@ body {
   width: 270px;
   height: 160px;
   background-image: linear-gradient(to top, #29282e 0%, rgba(41, 40, 46, 0) 100%);
+  padding-top: 70px;
+  padding-left: 30px;
 }
+.services__content__progress p {
+  color: #fff;
+  font-size: 0.6875rem;
+  font-weight: 400;
+  margin-left: 7px;
+}
+.star {
+  width: 8px;
+  height: 13px;
+  background-color: #fff;
+  margin-right: 2px;
+}
+.star-1 {
+  width: 8px;
+  height: 13px;
+  background-color: #fff;
+  margin-right: 2px;
+  opacity: 0.3;
+}
+
 
 /* points */
 
