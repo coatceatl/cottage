@@ -421,6 +421,7 @@ body {
   font-weight: 700;
   margin-left: 52px;
   margin-bottom: 32px;
+  margin-top: -25px;
 }
 .my_map {
   height: 600px;
@@ -434,7 +435,7 @@ body {
   font-weight: 700;
   margin-left: 52px;
   margin-bottom: 70px;
-  margin-top: 100px;
+  margin-top: -25px;
 }
 .reviews__photo {
   padding-top: 143px;
