@@ -85,8 +85,8 @@ body {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1.2px;
-  padding: 23px 33px 18px 32px;
-  margin-top: 39px;
+  padding: 19px 33px 14px 32px;
+  margin-top: 32px;
   cursor: pointer;
 }
 .btn-request:focus {
@@ -222,6 +222,9 @@ body {
   width: 270px;
   height: 270px;
 }
+.services__content.block {
+  background: url(../img/block-1.png) no-repeat;
+}
 .services__content.active {
   background-color: #8bcf59;
   opacity: 0.78;
@@ -244,15 +247,18 @@ body {
   font-weight: 400;
   margin-left: 7px;
 }
+.services__time {
+  align-items: baseLine;
+}
 .star {
-  width: 8px;
-  height: 13px;
+  width: 5px;
+  height: 10px;
   background-color: #fff;
   margin-right: 2px;
 }
 .star-1 {
-  width: 8px;
-  height: 13px;
+  width: 5px;
+  height: 10px;
   background-color: #fff;
   margin-right: 2px;
   opacity: 0.3;
@@ -262,15 +268,25 @@ body {
 /* points */
 
 .points {
-  margin: 87px 0 97px 0;
+  margin-top: 87px;
+  background-color: #ede9e8;
+}
+.block-title {
+  margin-top: 90px;
+  width: 93px;
+  height: 43px;
   background-color: #efebe9;
 }
+.block-title.white {
+  background-color: #fff;
+}
 .points__title h2 {
-  padding-top: 112px;
   padding-bottom: 15px;
   padding-left: 52px;
+  margin-top: -25px;
   font-size: 2.5rem;
   font-weight: 700;
+  z-index: 100;
 }
 .points__content {
   padding-left: 52px;
@@ -326,17 +342,26 @@ body {
 /* process */
 
 .process {
-  background: url(../img/house.png) center no-repeat;
+  background: url(../img/house.png) 50% 70% no-repeat;
 }
 .process__content {
   margin-bottom: 73px;
   margin-right: 134px;
 }
+.process__content span {
+  white-space: pre;
+}
 .process__title h2 {
   font-size: 2.5rem;
   font-weight: 700;
   padding-left: 52px;
-  padding-bottom: 96px;
+  margin-top: -25px;
+}
+.row-conformity {
+  margin-top: 81px;
+}
+.row.second {
+  padding-top: 87px;
 }
 .process__number {
   font-size: 1rem;
@@ -350,17 +375,39 @@ body {
   font-weight: 400;
   line-height: 28px;
 }
+.process__garanty span {
+  font-size: 1.25rem;
+  font-weight: 400;
+  /*white-space: pre;*/
+}
+.process__garanty span.years {
+  font-size: 3.8125rem;
+  font-weight: 600;
+}
+.process__garanty span.ten {
+  font-size: 5rem;
+  font-weight: 600;
+}
+.process__garanty.offset {
+  position: absolute;
+  right: 50px;
+  width: 300px;
+  height: 300px;
+  border: 10px solid #8bcf59;
+}
 
 /* safity */
 
 .safity {
-  background: url(../img/bg-safity.png) right bottom no-repeat;
+  background: url(../img/bg-safity.png) 100% bottom no-repeat,
+  url(../img/bg-logo.png) 73% 65% no-repeat;
 }
 .safity__title h2 {
   font-size: 2.5rem;
   font-weight: 700;
   padding-left: 52px;
   padding-bottom: 68px;
+  margin-top: -25px;
 }
 .safity__license {
   margin-left: 45px;
