@@ -437,6 +437,9 @@ body {
 
 /* teviews */
 
+.reviews .block-title {
+  background: url(../img/bg-block-title.png) no-repeat;
+}
 .reviews__title h2 {
   font-size: 2.5rem;
   font-weight: 700;
@@ -538,19 +541,28 @@ body {
 }
 
 /* partners */
-
+.partners {
+  margin: 130px 0;
+}
+.partners .block-title {
+  background: url(../img/bg-block-title.png) no-repeat;
+}
 .partners__title h2 {
   font-size: 2.5rem;
   font-weight: 700;
   margin-left: 52px;
-  margin-bottom: 70px;
+  margin-bottom: 90px;
   margin-top: -25px;
+}
+.partners .col-lg-2 {
+  padding-top: 15px;
 }
 
 /* feedback */
 
 .feedback {
-  background-color: #d7ccc8;
+  background: url(../img/bg-effect.png) no-repeat;
+  background-size: cover;
 }
 .feedback__title h2 {
   font-size: 2.5rem;
@@ -634,7 +646,7 @@ body {
   letter-spacing: 1.2px;
   text-transform: uppercase;
   padding: 21px 36px 18px 39px;
-  margin-right: 74px;
+  margin-right: 68px;
   border: 0;
   outline: none;
 }
@@ -648,6 +660,9 @@ body {
 .contacts__map {
   width: 670px;
   height: 370px;
+}
+.contacts .block-title {
+  background: url(../img/bg-block-title.png) no-repeat;
 }
 .contacts__title .block-title {
   margin-top: 60px;
@@ -666,10 +681,14 @@ body {
   list-style: none;
   padding-left: 0;
 }
+.contacts__menu a {
+  color: #44a001;
+}
 .contacts__item {
   font-size: 0.875rem;
   font-weight: 400;
   padding-bottom: 20px;
+  align-items: center;
 }
 .contacts__adress:before {
   content: '';
