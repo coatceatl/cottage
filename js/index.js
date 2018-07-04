@@ -33,7 +33,7 @@ $(document).ready(function(){
 
   var owl = $('#carousel-reviews');
   owl.owlCarousel({
-    items: 3,
+    items: 1,
     loop: true,
     autoplay: false,
     autoplayTimeout: 2000,

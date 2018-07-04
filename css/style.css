@@ -439,6 +439,9 @@ body {
 
 /* teviews */
 
+.reviews {
+  margin-bottom: -220px;
+}
 .reviews .block-title {
   background: url(../img/bg-block-title.png) no-repeat;
 }
@@ -450,10 +453,10 @@ body {
   margin-top: -25px;
 }
 .reviews__photo {
-  padding-top: 143px;
+  padding-top: 72px;
 }
 .reviews__block {
-  width: 663px;
+  width: 699px;
   height: 450px;
   box-shadow: 0 5px 30px rgba(7, 17, 35, 0.05);
   background-color: #fff;
@@ -486,9 +489,6 @@ body {
   padding-right: 113px;
   padding-bottom: 42px;
 }
-/*.reviews__block__details {
-  margin-right: 71px;
-}*/
 .details__description h6 {
    font-size: 0.875rem;
    font-weight: 700;
@@ -506,10 +506,13 @@ body {
   padding-top: 19px;
 }
 .reviews__block__details {
-  margin-left: 212px;
+  margin-left: 140px;
+  margin-top: -88px;
 }
-.owl-nav {
-  display: flex !important;
+.owl-carousel .owl-item img {
+  width: auto;
+  position: static;
+  cursor: pointer;
 }
 .reviews__contant.owl-carousel.owl-theme.owl-nav {
   position: absolute;
@@ -521,22 +524,13 @@ body {
   justify-content: start;
   list-style: none;
 }
-/*
-.owl-carousel.owl-nav button.owl-next span {
-  background: url('../img/arrow-right.png') no-repeat !important;
-  position: relative;
-  flex: 0 1 auto;
-  width: 17px;
-  height: 17px;
-  margin-right: 3px;
-  margin-left: 3px;
-  cursor: pointer;
-  border: 2px solid #fff !important;
-}*/
 .next-button,
 .prev-button {
   width: 27px;
   height: 43px;
+}
+.next-button {
+  margin-top: 178px;
 }
 .btn-show {
   position: relative;
