@@ -616,3 +616,13 @@ body {
   border: 0;
   outline: none;
 }
+
+/* contacts */
+
+.contacts {
+  margin: 87px 0;
+}
+.contacts__map {
+  width: 670px;
+  height: 370px;
+}
