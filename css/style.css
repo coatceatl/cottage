@@ -289,6 +289,9 @@ body {
 .block-title.white {
   background-color: #fff;
 }
+.points__title {
+  margin-left: -15px;
+}
 .points__title h2 {
   padding-bottom: 15px;
   padding-left: 52px;
