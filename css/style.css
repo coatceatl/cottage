@@ -525,3 +525,12 @@ body {
   margin-top: -25px;
 }
 
+/* feedback */
+.feedback__title h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-left: 52px;
+  margin-bottom: 70px;
+  margin-top: -25px;
+}
+
