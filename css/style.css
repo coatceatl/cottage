@@ -222,19 +222,28 @@ body {
   width: 270px;
   height: 270px;
 }
-.services__content.block {
-  background: url(../img/block-1.png) no-repeat;
+.services__content {
+  position: relative;
 }
-.services__content.active {
+.services__content:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
   background-color: #8bcf59;
-  opacity: 0.78;
+  opacity: 0;
   cursor: pointer;
+}
+.services__content:hover:after {
+  opacity: 0.78;
 }
 .services__content__progress {
   position: absolute;
   right: 0;
   bottom: 0;
-  left: 15px;
+  left: 0;
   width: 270px;
   height: 160px;
   background-image: linear-gradient(to top, #29282e 0%, rgba(41, 40, 46, 0) 100%);
@@ -466,7 +475,7 @@ body {
   font-weight: 400;
   font-color: #a6a6a6;
 }
-.reviews__block__cont {
+.reviews__block__intro {
   font-size: 1rem;
   font-weight: 400;
   line-height: 28px;
@@ -474,9 +483,9 @@ body {
   padding-right: 113px;
   padding-bottom: 42px;
 }
-.reviews__block__details {
+/*.reviews__block__details {
   margin-right: 71px;
-}
+}*/
 .details__description h6 {
    font-size: 0.875rem;
    font-weight: 700;
@@ -492,6 +501,9 @@ body {
   font-size: 0.75rem;
   font-weight: 400;
   padding-top: 19px;
+}
+.reviews__block__details {
+  margin-left: 212px;
 }
 .reviews__contant.owl-carousel.owl-theme.owl-nav {
   position: absolute;
@@ -513,6 +525,18 @@ body {
   margin-left: 3px;
   cursor: pointer;
   border: 2px solid #fff !important;
+}
+.btn-show {
+  position: relative;
+  width: 229px;
+  background-color: #8bcf59;
+  border: 3px solid #8bcf59;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 20px 30px 18px 33px;
+  letter-spacing: 1.2px;
+  color: #fff;
 }
 
 /* partners */
@@ -688,10 +712,14 @@ body {
   font-weight: 400;
   line-height: 20px;
 }
+.footer__services,
 .footer__menu {
   padding: 30px 0 0 0;
+  height: 100%;
+  justify-content: space-between;
 }
-.footer__item:first-child a {
+.footer__item:first-child a,
+.footer__menu__title a {
   color: #fff;
   font-size: 0.75rem;
   font-weight: 700;
@@ -708,5 +736,33 @@ body {
 }
 .footer__item a:hover {
   text-decoration: none;
+}
+.footer__consent {
+  padding-top: 70px;
+}
+.footer__consent a {
+  color: #fff;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 20px;
+}
+.footer__consent a:hover {
+  text-decoration: none;
+}
+.footer__social {
+  padding-top: 30px;
+}
+.footer__social p {
+  color: #767578;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 20px;
+}
+.footer__icons {
+  padding-left: 0;
+}
+.icons__item a {
+  color: #fff;
+  font-size: 26px;
 }
 

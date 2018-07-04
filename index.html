@@ -7,6 +7,7 @@
     <link href='https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css' rel='stylesheet' integrity='sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB' crossorigin='anonymous'>
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css' />
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css' />
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css' />
     <link rel='stylesheet' href='css/style.css' type='text/css'>
     <title>Коттедж строй</title>
   </head>
@@ -353,44 +354,48 @@
             </div>
             <div class='col-lg-12 d-flex reviews__contant'>
               <div id='carousel-reviews' class='owl-carousel owl-theme'>
-                <div class='item d-flex'>
-                  <div class='reviews__photo'>
-                    <img src='img/photo_review.png' alt=''>
+
+                <div class='item d-flex flex-column'>
+                  <div class='reviews__content d-flex'>
+                    <div class='reviews__photo'>
+                      <img src='img/photo_review.png' alt=''>
+                    </div>
+                    <div class='reviews__block d-flex'>
+                      <div class='reviews__avatar'>
+                        <img src='img/avatar_review.png' alt=''>
+                      </div>
+                      <div class='reviews__block__text flex-column'>
+                        <div class='reviews__header'>
+                          <h6>Семья Куравлёвых</h6>
+                          <p>г. Кстово 18.05.2018</p>
+                        </div>
+                        <div class='reviews__block__intro'>
+                         Хотелось бы выразить благодарность специалистам компании за качественно
+                         построенный дом. Учли все наши ремарки и пожелания. Уложились в отведенные сроки,
+                         за рамки предварительной сметы не вышли, претензий нет.
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                  <div class='reviews__block d-flex'>
-                    <div class='reviews__avatar'>
-                      <img src='img/avatar_review.png' alt=''>
+                  <div class='reviews__block__details d-flex justify-content-between'>
+                    <button class='btn btn-show'>Посмотреть проект</button>
+                    <div class='details__description'>
+                      <h6>Срок</h6>
+                      <p>46 дней</p>
                     </div>
-                    <div class='reviews__block__text flex-column'>
-                      <div class='reviews__header'>
-                        <h6>Семья Куравлёвых</h6>
-                        <p>г. Кстово 18.05.2018</p>
-                      </div>
-                      <div class='reviews__block__cont'>
-                       Хотелось бы выразить благодарность специалистам компании за качественно
-                       построенный дом. Учли все наши ремарки и пожелания. Уложились в отведенные сроки,
-                       за рамки предварительной сметы не вышли, претензий нет.
-                      </div>
-                      <div class='reviews__block__details d-flex justify-content-between'>
-                        <div class='details__description'>
-                          <h6>Срок</h6>
-                          <p>46 дней</p>
-                        </div>
-                        <div class='details__description'>
-                          <h6>Стоимость</h6>
-                          <p>856 000 &#8381;</p>
-                        </div>
-                        <a href='#'>Ссылка на отзыв</a>
-                      </div>
+                    <div class='details__description'>
+                      <h6>Стоимость</h6>
+                      <p>856 000 &#8381;</p>
                     </div>
+                    <a href='#'>Ссылка на отзыв</a>
                   </div>
                 </div>
+
               </div>
             </div>
           </div>
         </div>
       </section>
-
 
       <section class='partners'>
         <div class='container-my'>
@@ -516,8 +521,8 @@
               </div>
             </div>
             <div class='col-lg-3'>
-              <ul class='footer__menu'>
-                <li class='footer__item'>
+              <ul class='footer__services d-flex flex-column'>
+                <li class='footer__item footer__menu__title'>
                   <a href='#'>Услуги</a>
                 </li>
                 <li class='footer__item'>
@@ -537,9 +542,48 @@
                 </li>
               </ul>
             </div>
-            <div class='col-lg-2'>
-            </div>
-            <div class='col-lg-3'>
+            <div class='col-lg-5 d-flex flex-column justify-content-between'>
+              <div class='d-flex justify-content-between'>
+                <ul class='footer__menu d-flex flex-column'>
+                  <li class='footer__menu__title'>
+                    <a href='#'>О компании</a>
+                  </li>
+                  <li class='footer__menu__title'>
+                    <a href='#'>Наши работы</a>
+                  </li>
+                  <li class='footer__menu__title'>
+                    <a href='#'>Контакты</a>
+                  </li>
+                </ul>
+                <div class='footer__social d-flex flex-column'>
+                  <p>Мы в социальных сетях</p>
+                  <ul class='footer__icons d-flex justify-content-between'>
+                    <li class='icons__item'>
+                      <a href='#'>
+                        <i class='fa fa-vk'></i>
+                      </a>
+                    </li>
+                    <li class='icons__item'>
+                      <a href='#'>
+                        <i class='fa fa-instagram'></i>
+                      </a>
+                    </li>
+                    <li class='icons__item'>
+                      <a href='#'>
+                        <i class='fa fa-facebook'></i>
+                     </a>
+                   </li>
+                   <li class='icons__item'>
+                     <a href='#'>
+                       <i class='fa fa-odnoklassniki'></i>
+                     </a>
+                   </li>
+                 </ul>
+                </div>
+              </div>
+              <div class='footer__consent'>
+                <a href='#'>Условия обработки персональных данных</a>
+              </div>
             </div>
           </div>
         </div>
