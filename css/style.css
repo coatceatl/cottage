@@ -278,13 +278,13 @@ body {
 
 .points {
   margin-top: 87px;
-  background-color: #ede9e8;
+  background: url(../img/bg-effect.png) no-repeat;
+  background-size: cover;
 }
 .block-title {
   margin-top: 90px;
   width: 93px;
   height: 43px;
-  background-color: #efebe9;
 }
 .block-title.white {
   background-color: #fff;
@@ -350,15 +350,18 @@ body {
 
 /* process */
 
-.process {
-  background: url(../img/house.png) 50% 70% no-repeat;
-}
 .process__content {
   margin-bottom: 73px;
   margin-right: 134px;
 }
 .process__content span {
   white-space: pre;
+}
+.process .block-title {
+  background: url(../img/bg-block-title.png) no-repeat;
+}
+.process__title {
+  margin-bottom: 100px;
 }
 .process__title h2 {
   font-size: 2.5rem;
@@ -384,25 +387,14 @@ body {
   font-weight: 400;
   line-height: 28px;
 }
-.process__garanty span {
-  font-size: 1.25rem;
-  font-weight: 400;
-  /*white-space: pre;*/
+.wrap {
+  position: relative;
+  top: -180px;
+  margin-bottom: -125px;
 }
-.process__garanty span.years {
-  font-size: 3.8125rem;
-  font-weight: 600;
-}
-.process__garanty span.ten {
-  font-size: 5rem;
-  font-weight: 600;
-}
-.process__garanty.offset {
-  position: absolute;
-  right: 50px;
-  width: 300px;
-  height: 300px;
-  border: 10px solid #8bcf59;
+.wrap-1 {
+  position: relative;
+  right: -140px;
 }
 
 /* safity */
@@ -410,6 +402,9 @@ body {
 .safity {
   background: url(../img/bg-safity.png) 100% bottom no-repeat,
   url(../img/bg-logo.png) 73% 65% no-repeat;
+}
+.safity .block-title {
+  background: url(../img/bg-block-title.png) no-repeat;
 }
 .safity__title h2 {
   font-size: 2.5rem;
@@ -425,6 +420,9 @@ body {
 
 /* map */
 
+.map .block-title {
+  background: url(../img/bg-block-title.png) no-repeat;
+}
 .map__title h2 {
   font-size: 2.5rem;
   font-weight: 700;
