@@ -621,24 +621,33 @@ body {
 
 .contacts {
   margin: 87px 0;
+  background: url(../img/logo-contacts.png) 90% 100% no-repeat;
 }
 .contacts__map {
   width: 670px;
   height: 370px;
 }
+.contacts__title .block-title {
+  margin-top: 60px;
+}
 .contacts__title h2 {
   font-size: 2.5rem;
   font-weight: 700;
   margin-left: 52px;
-  margin-bottom: 70px;
+  margin-bottom: 64px;
   margin-top: -25px;
+}
+.contacts__content {
+  margin-left: 52px;
 }
 .contacts__menu {
   list-style: none;
+  padding-left: 0;
 }
 .contacts__item {
   font-size: 0.875rem;
   font-weight: 400;
+  padding-bottom: 20px;
 }
 .contacts__adress:before {
   content: '';
@@ -651,16 +660,16 @@ body {
 .contacts__phone:before {
   content: '';
   display: inline-block;
-  width: 20px;
-  height: 26px;
+  width: 16px;
+  height: 25px;
   background: url(../img/mobile.png) no-repeat;
   margin-right: 12px;
 }
 .contacts__mail:before {
   content: '';
   display: inline-block;
-  width: 20px;
-  height: 26px;
+  width: 22px;
+  height: 16px;
   background: url(../img/mail.png) no-repeat;
   margin-right: 12px;
 }
