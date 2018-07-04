@@ -100,7 +100,7 @@ body {
 }
 .owl-carousel {
   width: 1170px;
-  height: 630px;
+  /*height: 630px;*/
 }
 .carousel__promotion {
   position: absolute;
@@ -439,9 +439,6 @@ body {
 
 /* teviews */
 
-.reviews {
-  margin-bottom: -220px;
-}
 .reviews .block-title {
   background: url(../img/bg-block-title.png) no-repeat;
 }
@@ -451,6 +448,9 @@ body {
   margin-left: 52px;
   margin-bottom: 70px;
   margin-top: -25px;
+}
+#carousel-reviews {
+  padding-left: 15px;
 }
 .reviews__photo {
   padding-top: 72px;
@@ -506,7 +506,8 @@ body {
   padding-top: 19px;
 }
 .reviews__block__details {
-  margin-left: 140px;
+ /* margin-left: 140px;*/
+  height: 55px;
   margin-top: -88px;
 }
 .owl-carousel .owl-item img {
@@ -530,17 +531,26 @@ body {
   height: 43px;
 }
 .next-button {
+  position: absolute;
   margin-top: 178px;
+  right: 10px;
 }
+.prev-button {
+  position: absolute;
+  left: 0;
+  top: 400px;
+}
+
 .btn-show {
   position: relative;
   width: 229px;
   background-color: #8bcf59;
   border: 3px solid #8bcf59;
+  border-radius: 0;
   font-size: 0.75rem;
   font-weight: 700;
   text-transform: uppercase;
-  padding: 20px 30px 18px 33px;
+  padding: 20px 30px 19px 33px;
   letter-spacing: 1.2px;
   color: #fff;
 }

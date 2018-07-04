@@ -28,7 +28,7 @@ $(document).ready(function(){
     autoplay: false,
     autoplayTimeout: 2000,
     autoplayHoverPause: true,
-    pagination : true
+    pagination: true
   });
 
   var owl = $('#carousel-reviews');
@@ -38,7 +38,8 @@ $(document).ready(function(){
     autoplay: false,
     autoplayTimeout: 2000,
     autoplayHoverPause: true,
-    nav: true
+    nav: true,
+    pagination: false
   });
 
   $('.next-button').click(function() {
