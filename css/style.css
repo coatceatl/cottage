@@ -529,7 +529,6 @@ body {
 
 .feedback {
   background-color: #d7ccc8;
-  padding-bottom: 60px;
 }
 .feedback__title h2 {
   font-size: 2.5rem;
@@ -541,6 +540,10 @@ body {
 .form__content,
 .form__consent {
   margin-bottom: 42px;
+}
+.form__consent {
+  height: 55px;
+  align-items: center;
 }
 .form-control {
   width: 320px;
@@ -606,8 +609,10 @@ body {
   color: #fff;
   font-size: 0.75rem;
   font-weight: 700;
-  padding: 23px 36px 21px 39px;
-  margin-right: 174px;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  padding: 21px 36px 18px 39px;
+  margin-right: 74px;
   border: 0;
   outline: none;
 }
