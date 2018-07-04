@@ -451,6 +451,9 @@ body {
   padding-right: 29px;
   padding-left: 50px;
 }
+.owl-carousel .owl-item .reviews__avatar img {
+  width: auto;
+}
 .reviews__header {
   padding-top: 77px;
 }
@@ -489,5 +492,36 @@ body {
   font-size: 0.75rem;
   font-weight: 400;
   padding-top: 19px;
+}
+.reviews__contant.owl-carousel.owl-theme.owl-nav {
+  position: absolute;
+  top: 50px;
+  left: 40px;
+  margin-left: 0;
+  z-index: 15;
+  display: flex;
+  justify-content: start;
+  list-style: none;
+}
+.reviews__contant .owl-carousel .owl-item .owl-next {
+  background: url('../img/arrow-right.png') no-repeat;
+  position: relative;
+  flex: 0 1 auto;
+  width: 17px;
+  height: 17px;
+  margin-right: 3px;
+  margin-left: 3px;
+  cursor: pointer;
+  border: 2px solid #fff !important;
+}
+
+/* partners */
+
+.partners__title h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-left: 52px;
+  margin-bottom: 70px;
+  margin-top: -25px;
 }
 

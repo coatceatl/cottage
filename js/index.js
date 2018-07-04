@@ -23,7 +23,6 @@ $(document).ready(function(){
     autoplay: false,
     autoplayTimeout: 2000,
     autoplayHoverPause: true,
-    pagination : true,
     nav: true
   });
 });
