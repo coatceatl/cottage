@@ -626,3 +626,41 @@ body {
   width: 670px;
   height: 370px;
 }
+.contacts__title h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-left: 52px;
+  margin-bottom: 70px;
+  margin-top: -25px;
+}
+.contacts__menu {
+  list-style: none;
+}
+.contacts__item {
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+.contacts__adress:before {
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 26px;
+  background: url(../img/map-marker.png) no-repeat;
+  margin-right: 12px;
+}
+.contacts__phone:before {
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 26px;
+  background: url(../img/mobile.png) no-repeat;
+  margin-right: 12px;
+}
+.contacts__mail:before {
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 26px;
+  background: url(../img/mail.png) no-repeat;
+  margin-right: 12px;
+}
