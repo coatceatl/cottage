@@ -526,6 +526,11 @@ body {
 }
 
 /* feedback */
+
+.feedback {
+  background-color: #d7ccc8;
+  padding-bottom: 60px;
+}
 .feedback__title h2 {
   font-size: 2.5rem;
   font-weight: 700;
@@ -533,4 +538,76 @@ body {
   margin-bottom: 70px;
   margin-top: -25px;
 }
-
+.form__content,
+.form__consent {
+  margin-bottom: 42px;
+}
+.form-control {
+  width: 320px;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #fff;
+  color: #b9b2b0;
+  font-size: 0.875rem;
+  font-weight: 400;
+  padding-top: 24px;
+  padding-bottom: 22px;
+  padding-left: 22px;
+  margin-right: 37px;
+  border: 0;
+  border-radius: 0;
+  outline: none;
+}
+.form-control:focus,
+.form-control.textarea:focus {
+  box-shadow: 0 5px 30px rgba(7, 17, 35, 0.05);
+  outline: none;
+}
+.form-control.textarea {
+  width: 460px;
+  background-color: #fff;
+  color: #b9b2b0;
+  font-size: 0.875rem;
+  font-weight: 400;
+  padding-top: 24px;
+  padding-left: 21px;
+  border: 0;
+  border-radius: 0;
+  outline: none;
+}
+.form-group label {
+  font-size: 0.6875rem;
+  font-weight: 400;
+}
+.form-check-input {
+  width: 20px;
+  height: 20px;
+  color: #44a001;
+  background-color: #fff;
+}
+/*
+.form-check .form-check-input:checked~.form-check-label:before {
+  background-color: #fff;
+}*/
+.form-check-label {
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+.form-check-label a {
+  color: #44a001;
+}
+.form-check-label a:hover {
+  text-decoration: none;
+}
+.btn-send {
+  width: 162px;
+  border-radius: 25px;
+  background-color: #8bcf59;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 23px 36px 21px 39px;
+  margin-right: 174px;
+  border: 0;
+  outline: none;
+}

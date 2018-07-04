@@ -442,8 +442,39 @@
         <div class='container-my'>
           <div class='row'>
             <div class='col-lg-7 mr-auto feedback__title'>
-              <div class='block-title'></div>
+              <div class='block-title white'></div>
               <h2>Остались вопросы?<br />Мы готовы на них ответить!</h2>
+            </div>
+          </div>
+          <div class='row'>
+            <div class='col-lg-9 mr-auto'>
+              <form action='#'>
+                <div class='feedback-form d-flex flex-column'>
+                  <div class='form__content d-flex'>
+                    <div class='form__input'>
+                      <div class='form-group'>
+                        <input type='text' class='form-control' placeholder='Ваше имя'>
+                      </div>
+                      <div class='form-group'>
+                        <label for='exampleInputEmail1'>Телефон или e-mail</label>
+                        <input type='text' class='form-control' id='exampleInputPassword1' placeholder='ivanov_ivan@gmai'>
+                      </div>
+                    </div>
+                    <div class='form__input'>
+                      <div class='form-group'>
+                        <textarea class='form-control textarea' id='exampleFormControlTextarea1' rows='6' placeholder='Задайте вопрос или закажите проект'></textarea>
+                      </div>
+                    </div>
+                  </div>
+                  <div class='form__consent d-flex'>
+                    <div class='form-check'>
+                      <input type='checkbox' class='form-check-input' id='exampleCheck1'>
+                      <label class='form-check-label' for='exampleCheck1'>Я соглашаюсь с <a href='#'>Условиями обработки персональных данных</a></label>
+                    </div>
+                    <button type='submit' class='btn btn-send'>Отправить</button>
+                  </div>
+                </div>
+              </form>
             </div>
           </div>
         </div>
