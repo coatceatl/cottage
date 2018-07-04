@@ -302,7 +302,6 @@ body {
 }
 .points__content {
   padding-left: 52px;
-  padding-right: 100px;
   padding-top: 41px;
   width: 405px;
   font-size: 1rem;
@@ -397,7 +396,7 @@ body {
 }
 .wrap-1 {
   position: relative;
-  right: -140px;
+  right: -100px;
 }
 
 /* safity */
@@ -509,6 +508,9 @@ body {
 .reviews__block__details {
   margin-left: 212px;
 }
+.owl-nav {
+  display: flex !important;
+}
 .reviews__contant.owl-carousel.owl-theme.owl-nav {
   position: absolute;
   top: 50px;
@@ -519,8 +521,9 @@ body {
   justify-content: start;
   list-style: none;
 }
-.reviews__contant .owl-carousel .owl-item .owl-next {
-  background: url('../img/arrow-right.png') no-repeat;
+/*
+.owl-carousel.owl-nav button.owl-next span {
+  background: url('../img/arrow-right.png') no-repeat !important;
   position: relative;
   flex: 0 1 auto;
   width: 17px;
@@ -529,6 +532,11 @@ body {
   margin-left: 3px;
   cursor: pointer;
   border: 2px solid #fff !important;
+}*/
+.next-button,
+.prev-button {
+  width: 27px;
+  height: 43px;
 }
 .btn-show {
   position: relative;
@@ -658,7 +666,7 @@ body {
 
 .contacts {
   margin: 87px 0;
-  background: url(../img/logo-contacts.png) 90% 100% no-repeat;
+  background: url(../img/logo-contacts.png) 88% 100% no-repeat;
 }
 .contacts__map {
   width: 670px;
@@ -679,6 +687,9 @@ body {
 }
 .contacts__content {
   margin-left: 52px;
+}
+.contacts__details {
+  padding-left: 0;
 }
 .contacts__menu {
   list-style: none;
@@ -745,6 +756,9 @@ body {
   font-weight: 700;
   letter-spacing: 1.2px;
   text-transform: uppercase;`
+}
+.footer__menu .footer__menu__title {
+  padding-bottom: 10px;
 }
 .footer__item {
   font-size: 0.875rem;

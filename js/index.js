@@ -30,13 +30,23 @@ $(document).ready(function(){
     autoplayHoverPause: true,
     pagination : true
   });
-  $('.carousel-reviews').owlCarousel({
-    items: 1,
+
+  var owl = $('#carousel-reviews');
+  owl.owlCarousel({
+    items: 3,
     loop: true,
     autoplay: false,
     autoplayTimeout: 2000,
     autoplayHoverPause: true,
     nav: true
   });
+
+  $('.next-button').click(function() {
+    owl.trigger('next.owl.carousel');
+  });
+  $('.prev-button').click(function() {
+    owl.trigger('prev.owl.carousel');
+  });
 });
+
 
